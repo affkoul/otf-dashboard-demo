@@ -4,6 +4,8 @@ This project is a React + TypeScript + Vite front-end demo for exploring Lorenzo
 
 It connects to the Lorenzo REST APIs (/lorenzo/v1/simplevault/list, /lorenzo/v1/vault/summary, etc.) to show live vault data, with wallet integration (via Wagmi/Ethers.js) and persistent state (via Redux Toolkit + redux-persist).
 
+![Dashboard Screenshot](https://raw.githubusercontent.com/affkoul/otf-dashboard-demo/main/public/dashboard-image.png)
+
 ## ✨ Features
 
 📊 Vault Selector — dropdown to browse and pick from available OTF vaults
