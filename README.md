@@ -22,21 +22,15 @@ It connects to the Lorenzo REST APIs (/lorenzo/v1/simplevault/list, /lorenzo/v1/
 
 ## 🏗️ Tech Stack
 
-[@React 19](https://react.dev)
-+ [@TypeScript](https://www.typescriptlang.org/)
-
-[@Vite](https://vitejs.dev) — fast build + dev server
-
-[@Redux Toolkit](https://redux-toolkit.js.org)
- + [@redux-persist](https://github.com/rt2zz/redux-persist)
-
-[@Wagmi](https://wagmi.sh/)
- + [@Ethers.js](https://docs.ethers.org)
-
-[@Recharts](https://recharts.org)
- (ready for chart visualizations)
-
-[@Tailwind CSS](https://tailwindcss.com)
+- [React 19](https://react.dev)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev) — fast build + dev server
+- [Redux Toolkit](https://redux-toolkit.js.org)
+- [redux-persist](https://github.com/rt2zz/redux-persist)
+- [Wagmi](https://wagmi.sh/)
+- [Ethers.js](https://docs.ethers.org)
+- [Recharts](https://recharts.org) (ready for chart visualizations)
+- [Tailwind CSS](https://tailwindcss.com)
 
 ## 🚀 Getting Started
 1. Clone repo
