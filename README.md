@@ -1,10 +1,10 @@
-Lorenzo OTF Dashboard (Demo)
+## Lorenzo OTF Dashboard (Demo)
 
 This project is a React + TypeScript + Vite front-end demo for exploring Lorenzo Protocol OTF (On-chain Traded Fund) vaults.
 
 It connects to the Lorenzo REST APIs (/lorenzo/v1/simplevault/list, /lorenzo/v1/vault/summary, etc.) to show live vault data, with wallet integration (via Wagmi/Ethers.js) and persistent state (via Redux Toolkit + redux-persist).
 
-✨ Features
+## ✨ Features
 
 📊 Vault Selector — dropdown to browse and pick from available OTF vaults
 
@@ -18,7 +18,7 @@ It connects to the Lorenzo REST APIs (/lorenzo/v1/simplevault/list, /lorenzo/v1/
 
 📡 Future support — placeholder for WebSocket probe to test real-time updates
 
-🏗️ Tech Stack
+## 🏗️ Tech Stack
 
 [@React 19](https://react.dev)
 + [@TypeScript](https://www.typescriptlang.org/)
@@ -36,7 +36,7 @@ It connects to the Lorenzo REST APIs (/lorenzo/v1/simplevault/list, /lorenzo/v1/
 
 [@Tailwind CSS](https://tailwindcss.com)
 
-🚀 Getting Started
+## 🚀 Getting Started
 1. Clone repo
 ```js
 git clone https://github.com/affkoul/otf-dashboard-demo.git
@@ -62,11 +62,9 @@ VITE_TARGET_VAULT=0x4F2760B32720F013E900DC92F65480137391199b
 yarn dev
 ```
 
+App runs at [http://localhost:5173](http://localhost:5173)
 
-App runs at [@http://localhost:5173](http://localhost:5173)
-
-
-📂 Project Structure
+## 📂 Project Structure
 ```js
 src/
  ├── app/             # Redux store & persistence
@@ -78,7 +76,7 @@ src/
  └── index.css        # Tailwind + base styles
  ```
 
-📊 Demo Functionality
+## 📊 Demo Functionality
 
 StatCards: show Unit NAV, 7D APY, Symbol
 
@@ -88,7 +86,7 @@ Overview: placeholder for more charts / metrics
 
 WS Probe: developer tool for testing possible WebSocket endpoints
 
-🔮 Next Steps
+## 🔮 Next Steps
 
 Add charts for historical performance
 
@@ -98,7 +96,7 @@ Enable real wallet interactions (deposit/withdraw simulation)
 
 Deploy demo to Vercel/Netlify for live preview
 
-📝 License
+## 📝 License
 
 This demo is for evaluation purposes only.
 Not financial advice — do not use for live trading without auditing.
